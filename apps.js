@@ -18,7 +18,7 @@ export const APPS = [
   { key: "zeit",        name: "Zeiterfassung", desc: "Arbeitszeiten erfassen", icon: "clock",         farbe: "sky",     bereich: "kachel", url: `${BASIS}/marmotte-zeiterfassung/` },
   { key: "kassensturz", name: "Kassensturz",   desc: "Bargeld zählen",         icon: "wallet",        farbe: "emerald", bereich: "kachel", url: `${BASIS}/marmotte-kassensturz/` },
   { key: "trinkgeld",   name: "Trinkgeld",     desc: "Trinkgeld verteilen",    icon: "coins",         farbe: "amber",   bereich: "kachel", url: `${BASIS}/marmotte-trinkgeld/` },
-  { key: "bestellung",  name: "Bestellungen",  desc: "Bestellungen verwalten", icon: "shopping-cart", farbe: "rose",    bereich: "kachel", url: null },
+  { key: "bestellung",  name: "Bestellungen",  desc: "Bestellungen verwalten", icon: "shopping-cart", farbe: "rose",    bereich: "kachel", url: `${BASIS}/marmotte-bestellungen/` },
   { key: "artikel",     name: "Artikel",       desc: "Sortiment & Preise",     icon: "package",       farbe: "indigo",  bereich: "kachel", url: `${BASIS}/marmotte-artikel/` },
   { key: "etikette",    name: "Etikette",      desc: "Etiketten drucken",      icon: "tag",           farbe: "fuchsia", bereich: "kachel", url: null },
 

@@ -6,7 +6,7 @@
 // Achtung: Cache Storage ist pro Origin. Alle Marmotte-Apps liegen auf derselben
 // Adresse, deshalb hat jede App ein eigenes Präfix und räumt nur ihre eigenen Caches auf.
 const CACHE_PREFIX = "marmotte-dashboard-";
-const CACHE_NAME = `${CACHE_PREFIX}v1`;
+const CACHE_NAME = `${CACHE_PREFIX}v2`;
 const DESIGN = "https://bakerymarmotte-cmyk.github.io/marmotte-design";
 const SHELL_FILES = [
   "./index.html",
